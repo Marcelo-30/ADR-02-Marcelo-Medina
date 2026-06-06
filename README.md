@@ -67,7 +67,7 @@ Estas vistas ayudan a justificar que CatalogoAPP no solo es código funcional, s
 
 La vista lógica muestra las responsabilidades principales del sistema. CatalogoAPP utiliza MVC, por lo que separa la interfaz, el control de peticiones, la lógica del catálogo y el acceso a datos.
 
-![logica.drawio](./imagenes/vista-logica.png)
+![logica.drawio](./img/logica.drawio.png)
 
 ---
 
@@ -75,7 +75,7 @@ La vista lógica muestra las responsabilidades principales del sistema. Catalogo
 
 La vista física muestra cómo se organiza el proyecto en carpetas y archivos. Esta estructura ayuda a separar vistas, controladores, modelos, acceso a datos y recursos estáticos.
 
-![fisica.drawio](./imagenes/vista-fisica.png)
+![fisica.drawio](./img/fisica.drawio.png)
 
 ---
 
@@ -84,7 +84,7 @@ La vista física muestra cómo se organiza el proyecto en carpetas y archivos. E
 La vista de despliegue muestra dónde se ejecuta cada parte del sistema. El usuario accede desde un navegador, la aplicación se ejecuta en un servidor web con ASP.NET Core y los datos se almacenan en SQL Server.
 
 
-![despliegue.drawio](./imagenes/vista-despliegue.png)
+![despliegue.drawio](./img/despliegue.drawio.png)
 
 ---
 
@@ -93,7 +93,7 @@ La vista de despliegue muestra dónde se ejecuta cada parte del sistema. El usua
 La vista de procesos muestra el flujo principal cuando el vendedor administra un producto en el catálogo y cuando un cliente consulta productos disponibles.
 
 
-![procesos.drawio](./imagenes/vista-procesos.png)
+![procesos.drawio](./img/procesos.drawio.png)
 
 ---
 
