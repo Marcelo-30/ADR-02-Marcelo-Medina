@@ -32,3 +32,31 @@ Se decidió documentar la arquitectura inicial de CatalogoAPP mediante cuatro vi
 Se eligieron estas vistas porque permiten explicar el sistema desde diferentes niveles de detalle. La vista lógica ayuda a entender la separación de responsabilidades de MVC; la vista física permite ubicar el código dentro del proyecto; la vista de despliegue muestra la relación entre navegador, aplicación web y base de datos; y la vista de procesos permite explicar cómo fluye una acción real dentro del sistema.
 
 Estas vistas ayudan a justificar que CatalogoAPP no solo es código funcional, sino un sistema diseñado con una estructura clara, mantenible y entendible.
+
+---
+
+## Alternativas consideradas
+
+| Alternativa | Por qué la descarté |
+|-------------|---------------------|
+| Usar solo un diagrama general | No muestra suficientes perspectivas del sistema y sería más difícil defender la arquitectura. |
+| Documentar únicamente MVC | MVC explica la separación del código, pero no muestra despliegue, estructura física ni flujo de procesos. |
+| Usar diagramas muy detallados desde el inicio | Podría generar complejidad innecesaria para una primera versión del proyecto. |
+| No documentar las vistas arquitectónicas | Haría más difícil explicar las decisiones tomadas y mantener una guía para el desarrollo. |
+
+---
+
+## Consecuencias
+
+### ✅ Lo que gano
+
+- **Consecuencia técnica:** el sistema queda mejor explicado porque cada vista muestra una parte diferente de la arquitectura.
+- **Consecuencia de mantenimiento:** será más fácil ubicar dónde agregar funcionalidades como filtros, categorías, imágenes o gestión de inventario.
+- **Consecuencia para el proceso:** facilita la exposición y defensa del proyecto porque permite explicar la arquitectura desde varios puntos de vista.
+- **Consecuencia para el equipo:** si más adelante otra persona revisa el proyecto, podrá entender más rápido cómo está organizado.
+
+### ⚠️ Lo que sacrifico o asumo
+
+- **Limitación técnica:** las vistas representan la arquitectura inicial, por lo que podrían cambiar si el sistema crece o se agregan nuevas funciones.
+- **Deuda o riesgo:** si el código real no se mantiene alineado con los diagramas, la documentación puede quedar desactualizada.
+- **Mayor esfuerzo inicial:** se requiere invertir tiempo en documentar y actualizar los diagramas conforme avance el proyecto.
