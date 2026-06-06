@@ -101,3 +101,8 @@ La vista de procesos muestra el flujo principal cuando el vendedor administra un
 
 La decisión de documentar CatalogoAPP mediante vistas lógica, física, de despliegue y de procesos permite explicar el sistema de forma más completa. Cada vista muestra una parte distinta de la arquitectura y ayuda a defender las decisiones iniciales tomadas para el proyecto. Además, esta documentación servirá como guía para mantener la organización del código conforme se agreguen nuevas funcionalidades.
 
+---
+
+## Cláusula de uso de inteligencia artificial
+
+Para la elaboración de este documento se utilizó inteligencia artificial como herramienta de apoyo en la organización de ideas y mejora de la estructura del contenido. 
