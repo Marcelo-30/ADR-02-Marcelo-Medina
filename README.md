@@ -60,3 +60,44 @@ Estas vistas ayudan a justificar que CatalogoAPP no solo es código funcional, s
 - **Limitación técnica:** las vistas representan la arquitectura inicial, por lo que podrían cambiar si el sistema crece o se agregan nuevas funciones.
 - **Deuda o riesgo:** si el código real no se mantiene alineado con los diagramas, la documentación puede quedar desactualizada.
 - **Mayor esfuerzo inicial:** se requiere invertir tiempo en documentar y actualizar los diagramas conforme avance el proyecto.
+
+---
+
+## Vista lógica
+
+La vista lógica muestra las responsabilidades principales del sistema. CatalogoAPP utiliza MVC, por lo que separa la interfaz, el control de peticiones, la lógica del catálogo y el acceso a datos.
+
+![logica](./imagenes/vista-logica.png)
+
+---
+
+## Vista física
+
+La vista física muestra cómo se organiza el proyecto en carpetas y archivos. Esta estructura ayuda a separar vistas, controladores, modelos, acceso a datos y recursos estáticos.
+
+![fisica](./imagenes/vista-fisica.png)
+
+---
+
+## Vista de despliegue
+
+La vista de despliegue muestra dónde se ejecuta cada parte del sistema. El usuario accede desde un navegador, la aplicación se ejecuta en un servidor web con ASP.NET Core y los datos se almacenan en SQL Server.
+
+
+![despliegue](./imagenes/vista-despliegue.png)
+
+---
+
+## Vista de procesos
+
+La vista de procesos muestra el flujo principal cuando el vendedor administra un producto en el catálogo y cuando un cliente consulta productos disponibles.
+
+
+![Vista de procesos](./imagenes/vista-procesos.png)
+
+---
+
+## Conclusión
+
+La decisión de documentar CatalogoAPP mediante vistas lógica, física, de despliegue y de procesos permite explicar el sistema de forma más completa. Cada vista muestra una parte distinta de la arquitectura y ayuda a defender las decisiones iniciales tomadas para el proyecto. Además, esta documentación servirá como guía para mantener la organización del código conforme se agreguen nuevas funcionalidades.
+
